@@ -8,7 +8,7 @@ body {
   font-family: "Muli", sans-serif;
   overflow: hidden;
   margin: 0;
-  background: rgb(46, 46, 46);
+  background: #f3e5ee;
   height: 100vh;
   display: flex;
   justify-content: center;
