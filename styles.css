@@ -21,9 +21,9 @@ body {
 }
 
 .slide {
-  height: 80vh;
+  height: 70vh;
   border-radius: 2vw;
-  margin: 1vh;
+  margin: 1vw;
   cursor: pointer;
   color: #9c0166;
   flex: 1;
