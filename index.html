@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Карточки | Проект 1</title>
+    <title>JavaScript</title>
   </head>
   <body>
+    <!--Проект 1 Слайдер-->
+    <section class="blok1">
     <div class="container">
       <div class="slide" style="background-image: url('img/cake1.jpg')">
         <h3>Сupcake with cherries</h3>
@@ -24,6 +26,27 @@
         <h3>Classic cupcakes</h3>
       </div>
     </div>
+  </section>
+  <!--Проект 1 Слайдер-->
+  <!--Проект 2 Drag & Drop-->
+  <section class="blok2 ">
+    <div>
+      <div class="row">
+        <div class="col-header start">Начать</div>
+        <div class="col-header progress">В процессе</div>
+        <div class="col-header done">Готовы</div>
+      </div>
+
+      <div class="row">
+        <div class="placeholder">
+          <div class="item" draggable="true">Перетащи меня</div>
+        </div>
+        <div class="placeholder"></div>
+        <div class="placeholder"></div>
+      </div>
+    </div>
+  </section>
+  <!--Проект 2 Drag & Drop-->
     <script src="index.js"></script>
   </body>
 </html>

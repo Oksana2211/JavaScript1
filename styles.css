@@ -6,9 +6,12 @@
 
 body {
   font-family: "Muli", sans-serif;
+  background-color: #e5e5e5;}
+
+/*Первый проект Слайдер*/
+.blok1{
   overflow: hidden;
   margin: 0;
-  background: #f3e5ee;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -51,3 +54,76 @@ body {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
 }
+/*Первый проект Слайдер*/
+
+/*Второй проект Drag & Drop*/
+.blok2 {
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  width: 35vw;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.col-header {
+  width: 8vw;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 3vw;
+  padding: 0.8rem 1rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.item {
+  width: 8vw;
+  height: 4vw;
+  border: 1px solid #e8cfff;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  background: #f8e5f8;
+  padding: 0.8rem 1rem;
+  color: #754e75;
+  text-align: center;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 8vw;
+  height: 5vw;
+}
+
+.start {
+  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+}
+
+.progress {
+  background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
+}
+
+.done {
+  background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.hold {
+  border: 5px solid rgb(232, 186, 253);
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+border-top: 2px solid #f7baf7;
+}
+/*Второй проект Drag & Drop*/
