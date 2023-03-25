@@ -24,7 +24,7 @@ item.addEventListener('dragend', dragend)
 for (const placeholder of placeholders){
   placeholder.addEventListener('dragover', dragover)
   placeholder.addEventListener('dragenter', dragenter)
-  placeholder.addEventListener('dragleav', dragleav)
+  placeholder.addEventListener('dragleave', dragleave)
   placeholder.addEventListener('drop', drop)
 }
 
@@ -42,7 +42,7 @@ function dragover(event){
 function dragenter(event){
   event.target.classList.add('hovered')
 }
-function dragleav(event){
+function dragleave(event){
   event.target.classList.remove('hovered')
 }
 function drop(event) {
